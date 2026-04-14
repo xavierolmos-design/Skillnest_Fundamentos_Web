@@ -1,0 +1,30 @@
+* { /* Selector comodin (selecciona todos los elementos html) */
+    /* outline: 1px solid crimsom */
+    margin: 0; /* Formatea espacios externos de elementos html */
+    padding: 0; /*Formatea espacios internos de elementos html  */
+    box-sizing: border-box; /* Considera bordes dentro de tamaño de elementos html */
+
+body {
+    padding: 40px;
+}
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+.green {
+    color: mediumseagreen;
+}
+
+#red {
+    color: tomato;
+}
+.quote p {
+    color: darkslategray;
+    font-style: italic;
+}
+.quote h4 {
+    color: rgb(61, 114, 114);
+    font-weight: bold; /* Negrita */
+}
