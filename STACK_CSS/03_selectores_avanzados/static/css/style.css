@@ -1,71 +1,23 @@
 * {
-  /* Selector comodin (selecciona todos los elementos html) */
-  /* outline: 1px solid crimsom */
-  margin: 0; /* Formatea espacios externos de elementos html */
-  padding: 0; /*Formatea espacios internos de elementos html  */
-  box-sizing: border-box; /* Considera bordes dentro de tamaño de elementos html */
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  
+}
   body {
     padding: 40px;
-  }
+    outline: solid 1px blue;
 }
 
-h1 {
-  color: rebeccapurple;
+p {
+   text-align: left;  /* Alineado a la izquierda */
 }
 
-.green {
-  color: mediumseagreen;
+h2 {
+   text-align: center;  /* Alineado al centro */
 }
 
-#red {
-  color: tomato;
-}
-.quote p {
-  color: darkslategray;
-  font-style: italic;
-}
-.quote h4 {
-  color: rgb(61, 114, 114);
-  font-weight: bold; /* Negrita */
-}
-.header > img {
-  /* solo afecta a los elementos hijos directos (>) */
-  height: 50px; /* Altura de imagen */
-}
-#container p {
-  /* Seleccion de parrafo dentro de contenedor (#) */
-  font-size: 16px; /* Tamaño de letra */
-  background-color: #444; /* Color de fondo */
-  color: white; /* Color de letra */
-}
-#container p.highlight {
-  font-weight: bold;
-  color: gold;
+h3 {
+   text-align: right;  /* Alineado a la derecha */
 }
 
-input[type="text"] {
-  border: 2px solid royalblue;
-  padding: 3px;
-}
-form{
-  padding: 20px;
-}
-input[type="submit"] {
-  color: white;
-  background-color: mediumvioletred;
-  border: none; /* Quita los bordes por defecto */
-  padding: 5px 10px;
-  cursor: pointer; /* Manito para realizar click */
-}
-.color_nombre{
-    color: slategray;
-    background-color: aquamarine;
-}
-.color_rgb{
-    color: rgb(218, 112, 214);
-    background-color: brown;
-}
-.color_hex{
-    color:#ce4141;
-    background-color: #444;
-}
