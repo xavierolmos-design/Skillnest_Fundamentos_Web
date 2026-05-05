@@ -1,0 +1,90 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   outline-color: red 10px;
+}
+
+.contenedor {
+   text-align: center;
+}
+
+.tarjeta {
+   display: inline-block;
+   width: 150px;
+   height: 100px;
+   background-color: lightseagreen;
+   margin: 10px;
+   text-align: center;
+   line-height: 100px;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+}
+
+/*--------------------------------------------------------------------*/
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.header{
+   background-color: rgb(0, 0, 0);
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+.menu{
+   margin-top: 10px;
+}
+.boton{
+   display: inline-block;
+   background-color: #242222;
+   color: white;
+   text-decoration: none;
+   padding: 10px 20px;
+   margin: 5px;
+   border-radius: 5px;
+}
+.boton:hover{
+   background-color: #242222;
+}
+.Contenedor_princial{
+   padding: 25px 50px;
+}
+.resaltado{
+   display: inline;
+   background-color: #575656;
+   font-weight: bold;
+}
+.Contenedor_tarjetas{
+   text-align: center;
+   padding: 20px;
+}
+.box{
+   display: inline-block;
+   width: 150px;
+   height: 100px;
+   background-color: #242222;
+   color: white;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+}
+.bloque{
+   display: block;
+   background-color: #242222;
+   color: white;
+   margin: 10px;
+   padding: 15px;
+}
+.footer{
+   background-color: #575656;
+   color: white;
+   text-align: center;
+   padding: 15px;
+}
