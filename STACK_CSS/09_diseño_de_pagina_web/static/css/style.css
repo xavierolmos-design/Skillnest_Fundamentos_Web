@@ -1,61 +1,72 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  text-align: center;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+   text-align: center;
 }
 
 /*---HEADER---*/
 .header1 {
-  background-color: #000000;
-  color: white;
-  padding: 20px;
+   background-color: #1E3A5F;
+   color: white;
+   padding: 20px;
 }
 
-.menu1 {
-  background-color: #252525;
+.menu1{
+   background-color: #2C5282;
 }
 
 .boton {
-  display: inline-block;
-  background-color: #252525;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 5px;
+   display: inline-block;
+   background-color: #2C5282;
+   color: white;
+   text-decoration: none;
+   padding: 10px 20px;
+   margin: 5px;
+   border-radius: 5px;
 }
 
 .boton:hover {
-  background-color: #575757;
+   background-color: #335f96;
 }
+
 /* MAIN */
 .contenedor_principal1 {
-  padding: 25px 50px;
+   padding: 25px 50px;
 }
+
 .contenedor {
-  box-shadow: 2px 1px 5px black;
-  border-radius: 5px;
-  padding: 30px;
-  margin: 10px 90px 0px 90px;
+   box-shadow: 2px 1px 5px black;
+   border-radius: 5px;
+   padding: 30px;
+   margin: 10px 90px 0px 90px;
 }
+
 .conte {
-  padding: 30px 0px;
-  background-color: #474747;
-  border-radius: 5px;
-  color: white;
+   padding: 30px 0px;
+   background-color: #2C5282;
+   border-radius: 5px;
+   color: white;
 }
+
 .contenedor_tarjeta {
-  padding: 20px;
+   padding: 20px;
 }
+
 .box {
-  display: inline-block;
-  width: 300px;
-  height: 100px;
-  background-color: #19191a;
-  color: white;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 10px;
+   display: inline-block;
+   width: 300px;
+   height: 100px;
+   background-color: #00ADE5;
+   color: white;
+   margin: 10px;
+   padding: 20px;
+   border-radius: 10px;
+}
+.Parrafo2{
+   margin: 15px;
+}
+.Parrafo1{
+   margin: 10px;
 }
