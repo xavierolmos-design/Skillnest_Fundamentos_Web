@@ -57,16 +57,16 @@
 .box {
    display: inline-block;
    width: 300px;
-   height: 100px;
+   height: 120px;
    background-color: #00ADE5;
    color: white;
-   margin: 10px;
-   padding: 10px;
+   margin: 15px;
+   padding: 15px;
    border-radius: 10px;
 }
 .Parrafo2{
    margin: 15px;
 }
 .Parrafo1{
-   margin: 10px;
+   margin: 20px;
 }
