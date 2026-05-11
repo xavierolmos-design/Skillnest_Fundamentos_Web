@@ -2,15 +2,93 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: Arial, sans-serif;
-   text-align: center;
 }
-
-.title{
-   background-color: #1F8513;
-   color: aliceblue;
+body{
+   background-color: #e0e0e0e0;
+   padding: 40px 5%;
+   font-family: Arial, sans-serif;
+}
+.header{
+   background-color: #1F8715;
+   color: white;
+   text-align: center;
+   padding: 30px 0px;
+   margin-bottom: 20px;
+   width: 100%;
+}
+.header h1{
+   font-size: 36px;
+   font-weight: 500;
+}
+.conte{
+   width: 100%;
+}
+.barra_lateral1{
    display: inline-block;
-   height: 100px;
-   width: 400px;
-   padding: 30px;
+   width: 26%;
+   height: 500px;
+   background-color: rgb(1, 71, 129);
+   padding: 40px 0px;
+   font-size: 16px;
+   text-align: center;
+   vertical-align: top;
+}
+.boton_amarrillo{
+   display: inline-block;
+   background-color: rgb(187, 187, 19);
+   color: rgb(43, 42, 42);
+   padding: 12px 0px;
+   width: 70%;
+   border: none;
+   margin-bottom: 20px;
+   border-radius: 25px;
+}
+.cont{
+   display: inline-block;
+   width: 69%;
+   margin-left: 4%;
+   font-size: 16px;
+}
+.cajaroja{
+   background-color: rgb(189, 19, 19);
+   width: 100%;
+   padding: 20px;
+}
+.cuadrado{
+   vertical-align: top;
+   display: inline-block;
+   background-color: #FEF305;
+   width: 31%;
+   height: 200px;
+   margin: 0 1%;
+}
+.cajamorada{
+   background-color: #8E2386;
+   text-align: center;
+   padding: 30px 0;
+   margin-top: 20px;
+   margin-left: 1%;
+   font-size: 16px;
+}
+.boton-saber-mas{
+   display: inline-block;
+   background-color: #e0e0e0e0;
+   border: none;
+   color: #8E2386;
+   padding: 12px 40px;
+   font-weight: bold;
+   border-radius: 25px;
+}
+.lineas{
+   margin-top: 20px;
+   padding-left: 30px;
+}
+.linea{
+   background-color: #C2C1C6;
+   height: 8px;
+   margin-bottom: 16px;
+   width: 95%;
+}
+.corta{
+width: 75%;
 }
