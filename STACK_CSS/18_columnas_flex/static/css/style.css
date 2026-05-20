@@ -1,0 +1,47 @@
+
+/* Estilos generales */
+body {
+   padding: 0;
+   margin: 0;
+   box-sizing:border-box;
+   color: #000000;
+   padding: 20px;
+}
+
+/* Contenedor de filas */
+.row {
+   display: flex;
+   margin-bottom: 20px;
+   gap: 20px;
+   margin-top: 20px;
+}
+
+/* Estilos generales para columnas */
+.col {
+   display: flex;
+   flex: 1;
+   background-color: aquamarine;
+   border-radius: 5px;
+   border: 10px;
+   height: 50px;
+   align-items: center;
+   justify-content: center;
+   width: 10px;
+   transition: transform 0.3s ease;
+}
+
+/* Ajuste de tamaños específicos */
+.col-2 {
+   flex: 2;
+   background-color: aquamarine;
+}
+
+.col-3 {
+   flex: 3;
+   background-color: aquamarine;
+}
+.col:hover{
+   background-color: #30e0d7;
+   color: #000000;
+   transform: scale (1.0); /*1.1 añade 10% al tamaño*/
+}
