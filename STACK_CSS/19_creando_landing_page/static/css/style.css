@@ -81,3 +81,15 @@ body {
    display: flex;
    gap: 25px;
    align-items: center;}
+
+   .logotipos{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   section img{
+      max-width: 100px;
+      gap: 10px;
+      
+   }
