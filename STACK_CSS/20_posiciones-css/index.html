@@ -19,24 +19,32 @@
     </header>
     <main class="contenedor-principal">
         <section class="tarjeta">
-            <h2>Position: </h2>
-            <p>Texto dentro</p>
-            <div class="caja">
-                hola
-            </div>
+            <h2>Position: static</h2>
+            <p class="explicacion">El bloque oscuro tiene 
+                <code>top:40px</code> en el codigo, 
+                para ser <b>static</b> 
+                ignora la orden y se queda en la fila</p>
+                <div class="bloque-normal">Bloque 1</div>
+                <div class="bloque-estatico">Bloque 2(Intento moverse)</div>
+                <div class="bloque-normal">Bloque 3</div>
         </section>
         <section class="tarjeta">
-            <h2>Position: </h2>
-            <p>Texto dentro</p>
-            <div class="caja">
-                hola
-            </div>
+            <h2>Position: Relative</h2>
+            <p class="explicacion">El bloque naranja se movio 25px hacia abajo pero <b>dejo un hueco</b> que impide mover el bloque 3 con position: relative se mueve respecto a su posición original</p>
+            <div class="bloque-normal">Bloque 1</div>
+            <div class="molde-fantasma">
+            <div class="bloque-relativo">Bloque 2 (se movio)</div>
+            <div class="bloque-normal">Bloque 3</div>
         </section>
         <section class="tarjeta">
-            <h2>Position: </h2>
-            <p>Texto dentro</p>
-            <div class="caja">
-                hola
+            <h2>3. Position: Absolute</h2>
+            <p class="explicacion">El boton rojo (X) flota anclado a la esquina de su contenedor (relative)
+                <b>sin estorbar ni empujar</b> al texto.</p>
+            <div class="ventana-modal">
+                <div class="boton-cerrar">X</div>
+                <p style="color: grey; font-size: 1rem;">
+                    Soy un mensaje dentro de la ventana modal.
+                    La "X" flota encima de mi gracias a position: absolute</p>
             </div>
         </section>
     </main>

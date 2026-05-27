@@ -62,6 +62,88 @@ body{
    box-shadow: 0 15px 25px black;
 }
 
-.caja{
+.tarjeta h2{
+   font-size: 1.3rem;
+   color: rgb(104, 159, 194);
+   border-bottom: 2px solid rgba(224, 222, 222, 0.664);
+   padding-bottom: 10px;
+}
+.explicacion{
+   font-size: 0.9rem;
+   color: rgb(49, 48, 48);
+   line-height: 1.4;
+}
 
+/* Cajas grises*/
+.bloque-normal{
+   background-color: rgb(141, 139, 139);
+   color: black;
+   padding: 12px;
+   text-align: center;
+   border-radius: 6px;
+   font-weight: bold;
+}
+
+/* Ejemplo de static (El que obedece)*/
+.bloque-estatico{
+   position: static;
+   top: 40px;
+   left: 40px;
+   background-color: rgb(32, 32, 32);
+   color: white;
+   padding: 12px;
+   text-align: center;
+   border-radius: 6px;
+   font-weight: bold;
+   border: 2px solid rgb(73, 73, 73);
+}
+/* EJEMPLO DE RELATIVE */
+.molde-fantasma{
+   border: 2px dashed rgb(73, 73, 73);
+   border-radius: 6px;
+   height: 48px;
+   position: relative;
+}
+.bloque-relativo{
+   position: relative;
+   top: 25px;
+   left: 30px;
+   background-color: rgb(255, 102, 0);
+   color: white;
+   padding: 12px;
+   text-align: center;
+   border-radius: 6px;
+   font-weight: bold;
+   box-shadow: 0 4px 8px rgb(148, 42, 0);
+}
+/* EJEMPLO DE ABSOLUTE (Ventana y X) */
+.ventana-modal{
+   position: relative; /* Contenedor para el bloque absoluto */
+   background-color: rgb(255, 255, 255);
+   border: 2px solid rgb(31, 30, 30);
+   border-radius: 6px;
+   padding: 30px 15px 15px 15px;
+   text-align: center;
+   margin-top: 10px;
+}
+.boton-cerrar{
+   position: absolute;
+   /* se ancla a la esquina superior derecha del contenedor relativo (ventana-modal) */
+   top: -12px;
+   right: -12px;
+   background-color: rgb(255, 0, 0);
+   color: white;
+   width: 32px;
+   height: 32px;
+   padding: 12px;
+   text-align: center;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+   font-size: 14px;
+   cursor: pointer;
+   box-shadow: 0 4px 8px rgb(48, 1, 1);
+   border: 2px solid white;
 }
