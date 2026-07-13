@@ -38,7 +38,15 @@ function sistemaDescuento(){
 // Mostrar:
 // “Acceso permitido”
 // o “Acceso denegado”
-
+function accesoEvento(){
+    let edad = parseInt(prompt("Ingrese su edad: "))
+    let acompañado = prompt("¿Viene acompañado? (si/no): ")
+    if (edad >= 18 || acompañado === "si") {
+        alert("Acceso permitido")
+    } else {
+        alert("Acceso denegado")
+    }
+}
 // ✅ Ejercicio 3: Clasificación de temperatura
 // 📝 Enunciado
 // Solicitar una temperatura y clasificar:
@@ -48,7 +56,19 @@ function sistemaDescuento(){
 // Además:
 // Si la temperatura supera los 35 grados, mostrar una alerta adicional:
 //  “Temperatura extrema”.
-
+function clasificacionTemperatura(){
+    let temperatura = parseInt(prompt("Ingrese la temperatura: "))
+    if (temperatura < 10) {
+        alert("Hace frío")
+    } else if (temperatura >= 10 && temperatura <= 24) {
+        alert("Temperatura agradable")
+    } else {
+        alert("Hace calor")
+        if (temperatura > 35) {
+            alert("Temperatura extrema")
+        }
+    }
+}
 // ✅ Ejercicio 4: Verificación de administrador
 // 📝 Enunciado
 // Solicitar:
@@ -61,7 +81,17 @@ function sistemaDescuento(){
 // Si ambos son correctos → “Bienvenido administrador”
 // Si usuario es correcto pero contraseña incorrecta → “Contraseña incorrecta”
 // Si usuario no existe → “Usuario no encontrado”
-
+function verificarAdministrador(){
+    let usuario = prompt("Ingrese su nombre de usuario: ")
+    let contraseña = prompt("Ingrese su contraseña: ")
+    if (usuario === "admin" && contraseña === "12345") {
+        alert("Bienvenido administrador")
+    } else if (usuario === "admin" && contraseña !== "12345") {
+        alert("Contraseña incorrecta")
+    } else {
+        alert("Usuario no encontrado")
+    }
+}
 // ✅ Ejercicio 5: Sistema de aprobación
 // 📝 Enunciado
 // Solicitar:
@@ -77,3 +107,17 @@ function sistemaDescuento(){
 // Además:
 // Si alguna nota es menor a 2.0 mostrar:
 //  “Debe asistir a reforzamiento”.
+function sistemaAprobacion(){
+    let nombre = prompt("Ingrese su nombre: ")
+    let nota1 = parseFloat(prompt("Ingrese la nota 1: "))
+    let nota2 = parseFloat(prompt("Ingrese la nota 2: "))
+    let nota3 = parseFloat(prompt("Ingrese la nota 3: "))
+    let promedio = (nota1 + nota2 + nota3) / 3 
+    if (promedio >= 6.0) {
+        alert("Aprobado con excelencia")
+    } else if (promedio >= 4.0 && promedio < 6.0) {
+        alert("Aprobado")
+    } else {
+        alert("Reprobado")
+    }
+}
