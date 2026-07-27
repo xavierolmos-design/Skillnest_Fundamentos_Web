@@ -58,7 +58,7 @@ eliminado += " " + listaTareas.shift();
 alert(listaTareas.join(" - "))
 alert("Elementos eliminados: " + eliminado)
 }
-
+//Buscar mayores edad
 function buscarMayoresEdad () {
     let numeros = [10,35,7,90,22];
 
@@ -90,4 +90,64 @@ function Alumnos () {
 for(let i=0;i<nombres.length;i++){
     alert(`Los alumnos son ${nombres[i]}`)
 }
+}
+
+//Recorrer un arreglo
+
+function Recorre () {
+let notas = [6.2,5.8,4.1,7.0];
+for(let i=0;i<notas.length;i++){
+    alert(notas[i]);
+}
+}
+
+//sumar elementos en un bucle
+function sumarBucles () {
+let ventas = [10000,5000,12000,8000];
+let total = 0;
+for(let i=0;i<ventas.length;i++){
+    total += ventas[i];
+}
+alert(total);
+}
+
+//calcular promedio
+function calcularPromedio () {
+let notas = [5.8,6.2,4.9,6.5];
+let suma = 0;
+for(let i=0;i<notas.length;i++){
+suma += notas[i];
+}
+let promedio = suma / notas.length;
+alert(`El promedio de las notas: ${promedio}`);
+}
+
+//Condiciones
+function Condiciones () {
+let edades = [12,15,18,20,25,35,];
+let mayores = []
+for(let i=0;i<edades.length;i++){
+    if(edades[i] >= 18){
+        mayores.push(edades[i]);
+    }
+}
+alert(`De la lista de edades: ${edades.join(' / ')}
+\n`)
+}
+//Encontrar el mayor y el menor 
+function menorMayor (){
+let numeros = [10,35,7,90,22,90,2];
+let manor = numeros[0];
+let mayor = numeros[0];
+for(let i=1;i<numeros.length;i++){
+    if(numeros[i] < menor){
+        menor = numeros[i];
+    } else if (numeros[i] > mayor) {
+        mayor = numero[i];
+    }
+
+}
+alert(`de los numeros ${numeros.join('/') }
+El menor es: ${menor}
+el mayor es: ${mayor}`)
 }
