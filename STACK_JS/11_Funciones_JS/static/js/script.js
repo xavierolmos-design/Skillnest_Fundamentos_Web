@@ -63,3 +63,12 @@ Calcular();
 Crear una funcion reciba un parámetro y permita a través de un bucle contar hasta este.
 Ej: Se recibe el número 5 y muestra: 1 - 2 - 3 - 4 - 5
 */
+function contarHasta(a) {
+    if(a)
+    let NUMEROS = [];
+    for (let i = 1; i <= a; i++) {
+        NUMEROS.push(i)
+    }
+    return NUMEROS;
+}
+
