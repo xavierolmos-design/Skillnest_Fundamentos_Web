@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.navbar {
+  background-color: #a295ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+}
+
+.buscador {
+  width: 45%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.IniciarSesion {
+  background-color: #7262f0;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contenedor {
+  display: flex;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.publicaciones {
+  flex: 2;
+}
+
+.bar {
+  flex: 1;
+}
+
+.tarjeta {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.tarjeta h2 {
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.tarjeta button {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.meGusta {
+  background-color: #ff6b6b;
+}
+
+.perfil {
+  background-color: #00d2c4;
+}
