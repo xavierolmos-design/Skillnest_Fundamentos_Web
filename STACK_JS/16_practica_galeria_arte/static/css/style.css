@@ -1,0 +1,89 @@
+/* Reset global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f7f4f0;
+  color: #333;
+}
+
+/* Barra de navegación */
+.nav {
+  background-color: #4a3f35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+.logo {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.bar input {
+  width: 250px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.login {
+  background-color: #d8cdbe;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.login:hover {
+  background-color: #c5b8a5;
+}
+
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px); 
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  overflow: hidden;
+  border-radius: 8px; 
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; 
+  transition: transform 0.3s ease; 
+}
+
+.titulo {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #444;
+  line-height: 1.4;
+}
