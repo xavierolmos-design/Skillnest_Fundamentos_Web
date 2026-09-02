@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+  background-color: #f7f4f0;
+  color: #333;
+}
+
+.nav {
+  background-color: #3f3f3f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 34px;
+  width: 100%;
+}
+
+.nav h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 100%;
+}
+.contenedor {
+  display: flex;
+  
+}
+
+.botonPerfil{
+border: none;
+background-color:rgb(42, 156, 191);
+color: #ffffff;
+width: 100px;
+height: 30px;
+border-radius: 5px;
+font-size: 1rem;
+}
+
+.parteIzquierda{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+}
+.parteDerecha  {
+  flex:3;
+  padding: 15px;
+}
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  width: 230px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: solid 1px black;
+}
+
+
+.card img  
+{ 
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 100px; 
+  transition: transform 0.3s ease; 
+}
+
+.cajas {
+  background-color: white;
+  border-radius: 12px ;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.cajas h3 {
+  margin: 10px;
+
+}
+.like {
+display: flex;
+  gap: 10px;
+}
+.like button{
+  background-color:#ffd06b;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 12px
+}
+.head-pub{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
