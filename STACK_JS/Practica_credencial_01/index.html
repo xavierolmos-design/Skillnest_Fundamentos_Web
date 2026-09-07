@@ -1,0 +1,99 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Core-Me-gusta</title>
+  <meta name="author" content="Xavier">
+
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span class="logo-icon">🌮</span>
+            <span class="logo-taco">Taco</span><span class="logo-palace">Palace</span>
+        </a>
+        <div class="header-right">
+            <input type="email" class="email-input" id="emailInput" placeholder="email">
+            <button class="login-btn" id="loginBtn">Login</button>
+            <div class="cart">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="category-item">
+            <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/15e796cef-a41a-4f47-8a6c-397a921eab94.png" alt="Enchiladas" class="category-img">
+            <div class="category-name">Enchiladas</div>
+        </div>
+        <div class="category-item">
+            <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/14a87906a-1796-4a9e-a725-c5bf23082ba9.png" alt="Tacos" class="category-img">
+            <div class="category-name">Tacos</div>
+        </div>
+        <div class="category-item">
+            <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/174d17b62-7215-499d-a1b4-8f8d58344c48.png" alt="Flautas" class="category-img">
+            <div class="category-name">Flautas</div>
+        </div>
+        <div class="category-item">
+            <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/12b11045e-c2af-4338-b8c0-a1151a4b0d85.png" alt="Gorditas" class="category-img">
+            <div class="category-name">Gorditas</div>
+        </div>
+        <div class="category-item">
+            <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/1cd021458-be09-4571-9824-abd106ed6a55.png" alt="Tostadas" class="category-img">
+            <div class="category-name">Tostadas</div>
+        </div>
+        <div class="category-item">
+            <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/1a884645c-e016-468f-8bae-eed5e0f20315.png" alt="Enfrijoladas" class="category-img">
+            <div class="category-name">Enfrijoladas</div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Banner -->
+        <div class="banner">
+            <div class="banner-text">
+                <h2>La mejor variedad en platillos de comida mexicana</h2>
+                <p>Contamos con <span class="domicilio">servicio a domicilio</span></p>
+            </div>
+            <div class="banner-img-container" id="bannerImgContainer">
+                <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/15152ff36-51b9-4fc9-bd16-2717193082a9.png" alt="Banner" class="banner-img" id="bannerImg">
+            </div>
+        </div>
+
+        <!-- Recommended -->
+        <div class="recommended">
+            <h3>Recomendados:</h3>
+
+            <div class="recommended-item">
+                <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/142e76035-72be-40cd-8a38-ef87d6f0caaf.png" alt="Orden de Tacos" class="recommended-img">
+                <div class="recommended-info">
+                    <div>
+                        <div class="recommended-name">Orden de Tacos</div>
+                        <span class="recommended-link">Ver Más...</span>
+                    </div>
+                </div>
+                <button class="add-btn" onclick="addToCart()">+</button>
+            </div>
+
+            <div class="recommended-item">
+                <img src="https://image.qwenlm.ai/public_source/da36695e-bb4e-46da-9722-754d62b12479/15ba7cc30-86f4-4b1e-a14b-f11fbcbc20ae.png" alt="Orden de Flautas" class="recommended-img">
+                <div class="recommended-info">
+                    <div>
+                        <div class="recommended-name">Orden de Flautas</div>
+                        <span class="recommended-link">Ver Más...</span>
+                    </div>
+                </div>
+                <button class="add-btn" onclick="addToCart()">+</button>
+            </div>
+        </div>
+    </div>
+  <script src="static/js/script.js"></script>
+</body>
+
+</html>
